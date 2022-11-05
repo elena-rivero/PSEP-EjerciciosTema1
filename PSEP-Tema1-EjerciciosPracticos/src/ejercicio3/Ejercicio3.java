@@ -9,6 +9,9 @@ import java.util.List;
 public class Ejercicio3 {
 
 	public static void main(String[] args) {
+		// Empiezo a contar
+		long inicio = System.currentTimeMillis();
+		
 		// Array donde almacenamos las vocales
 		String[] vocales = { "a", "e", "i", "o", "u" };
 
@@ -64,6 +67,8 @@ public class Ejercicio3 {
 			System.exit(1);
 		}
 
+		long fin = System.currentTimeMillis();
+		System.out.println("Ha tardado en ejecutarse: " + (fin-inicio) + " milisegundos.");
 	}
 
 }
