@@ -64,11 +64,11 @@ public class Ejercicio2 {
 			System.err.println("---------------------");
 			e.printStackTrace();
 			System.err.println("---------------------");
-			// Indicamos que la ejecución termina con error 2
+			// Indicamos que la ejecución termina con error 1
 			System.exit(1);
 		} catch (InterruptedException e) {
 			System.err.println("Proceso interrumpido");
-			// Indicamos que la ejecución termina con error 3
+			// Indicamos que la ejecución termina con error 2
 			System.exit(2);
 		}
 	}
